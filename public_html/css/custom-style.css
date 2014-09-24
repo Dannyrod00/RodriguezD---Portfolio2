@@ -12,7 +12,11 @@
        .row {
        border-color: green;
        }
-
+       h1 {
+           color: green;
+       }
        
-
+       
+       
+       
        body{background-image: url('http://fc06.deviantart.net/fs70/f/2012/164/5/9/hexagon_wallpaper_v2_by_wideo-d53ed00.png') ;}
