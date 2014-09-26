@@ -24,36 +24,61 @@ and open the template in the editor.
         
         <header>
         
-        <nav>
-               <!-- <a href="projects.html">Projects</a>
-                <a href="Technology.html">Technology</a>-->
-                
-            </nav>
-                                                                          
+       
         </header>
             
         <h1>About Me</h1>
         
-        <p>
-        <a type="button" class="btn btn-info" href="Technology.html">Technology</a>
-        <a type="button" class="btn btn-info" href="Projects.html">Projects</a>
-        </p>
+        <div class="dropdown">
+        <a id="01" type="button" class="btn btn-success" href="Technology.html">Technology</a>
+        <a id="01" type="button" class="btn btn-success" href="Projects.html">Projects</a>
+               
         
-        <div class="container">
+  <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+    Dropdown
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="http://phs.pasadenausd.org/">PHS</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="www.TheAppAcademy.us">App Academy</a></li>
+    <li role="presentation" class="divider"></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="getbootstrap.com">Bootstrap</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="http://www.w3.org/TR/html5/">Html5</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="http://www.w3.org/TR/css3-selectors/">Style Css</a></li>
+  </ul>
+</div>
+  
+        
+       
+        
+        <div id="02" class="container">
              <p>This is my About Me page</p>
        
-         <div class="row">
-             <p>Hi my name is Daniel Rodriguez and I'am a student at Pasadena high school and I'am in the Web development class but more often known as The App Academy</p>
+         <div id="03" class="row">
+             <p>Hi my name is Daniel Rodriguez and I'am a student at Pasadena high school and I'am in the Web development class.I was born on November 27 2000 at Huntington hospital.</p>
              
-             <div class="col-xs-12">
-                    <p><a href="http://phs.pasadenausd.org/"><img src="http://static.hudl.com/users/prod/2146934_1c5bc60076a4439fa1c3098367529bb8.jpg"></a></p>
+             <div  class="col-xs-12">
+                    <p id="04"><a href="http://phs.pasadenausd.org/"><img src="http://static.hudl.com/users/prod/2146934_1c5bc60076a4439fa1c3098367529bb8.jpg"></a></p>
+                    <p id="04"><a href="www.theappacademy.us"><img src="http://www.pasedfoundation.org/modules/toc/uploads/images/topics/tid326_appacademyblackgrey_small_cd9a1f78_d833_d36f_u1.jpg"></a></p>
              </div>
              
              </div>
-             <marquee>
-             <p>This web site was made by Daniel Rodriguez</p>
+         
+             
+                 
+             <marquee>    
+             <p id="03">....Copy rights 2014 inc....</p>
              </marquee>
              
+                          <button type="button" class="btn btn-success" data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">Info</button>
+               
+                <audio controls autoplay>
+            <source src="add ons/Daft Punk- Derezzed (OFFICIAL TRACK)(FULL SONG)(HQ)(2010)TRON SOUNDTRACK.mp3" type="audio/mpeg">
+            Your browser does not support the <code>audio</code> tag.
+        </audio>
              </div>
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+       <script src="js/bootstrap.min.js"></script>
     </body>
 </html>
