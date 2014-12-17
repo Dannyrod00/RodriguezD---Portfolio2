@@ -19,8 +19,8 @@
        
        /*this is the title for all my pages*/
        h1 {
-           color: green;
-           border-color: none;
+           color: blueviolet;
+           border-color: black;
            border-width: 2px;
            border-style: solid;
            text-align: center;
@@ -34,7 +34,7 @@
        
        
        marquee {
-            color: green;
+            color: blueviolet;
        }
             
          
